@@ -5,7 +5,7 @@ var mobileApp = require('azure-mobile-apps')(); // Create an instance of a Mobil
 mobileApp.tables.add('InventDB');
 mobileApp.tables.add('prueba');
 mobileApp.tables.add('Usuario');
-mobileApp.tables.add('Reportes');
+
 mobileApp.tables.add('Movimientos');// Create a table for 'Book' with default settings
 
 app.use(mobileApp);
