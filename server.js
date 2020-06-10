@@ -2,7 +2,7 @@ var app = require('express')(); // Create an instance of an Express app
 
 var mobileApp = require('azure-mobile-apps')(); // Create an instance of a Mobile App with default settings
 
-mobileApp.tables.add('InventDB');
+mobileApp.tables.add('Materia');
 mobileApp.tables.add('prueba');
 mobileApp.tables.add('Usuario');
 mobileApp.tables.add('Reportes');
